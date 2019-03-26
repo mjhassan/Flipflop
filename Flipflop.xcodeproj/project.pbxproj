@@ -8,12 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		08233E2A224A4FBC00C16BE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08233E29224A4FBC00C16BE6 /* AppDelegate.swift */; };
-		08233E2C224A4FBC00C16BE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08233E2B224A4FBC00C16BE6 /* ViewController.swift */; };
-		08233E2F224A4FBC00C16BE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08233E2D224A4FBC00C16BE6 /* Main.storyboard */; };
+		08233E2C224A4FBC00C16BE6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08233E2B224A4FBC00C16BE6 /* HomeViewController.swift */; };
 		08233E31224A4FC200C16BE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08233E30224A4FC200C16BE6 /* Assets.xcassets */; };
-		08233E34224A4FC200C16BE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08233E32224A4FC200C16BE6 /* LaunchScreen.storyboard */; };
 		08233E3F224A4FC300C16BE6 /* FlipflopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08233E3E224A4FC300C16BE6 /* FlipflopTests.swift */; };
 		08233E4A224A4FC300C16BE6 /* FlipflopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08233E49224A4FC300C16BE6 /* FlipflopUITests.swift */; };
+		08233E63224A504000C16BE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08233E5F224A504000C16BE6 /* LaunchScreen.storyboard */; };
+		08233E64224A504000C16BE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08233E61224A504000C16BE6 /* Main.storyboard */; };
+		08233E69224A51C100C16BE6 /* RecorderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08233E68224A51C100C16BE6 /* RecorderViewController.swift */; };
+		08233E6B224A51F800C16BE6 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08233E6A224A51F800C16BE6 /* ProfileViewController.swift */; };
+		08233E6D224A521900C16BE6 /* OPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08233E6C224A521900C16BE6 /* OPViewController.swift */; };
+		08233E6F224A522B00C16BE6 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08233E6E224A522B00C16BE6 /* SearchViewController.swift */; };
+		08233E71224A523D00C16BE6 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08233E70224A523D00C16BE6 /* NotificationViewController.swift */; };
+		08233E74224A552900C16BE6 /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08233E73224A552900C16BE6 /* VideoCell.swift */; };
+		08233E76224A553600C16BE6 /* VideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08233E75224A553600C16BE6 /* VideoCell.xib */; };
+		08233E79224A566B00C16BE6 /* VideoDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08233E78224A566B00C16BE6 /* VideoDescriptionView.swift */; };
+		08233E7B224A5AF200C16BE6 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08233E7A224A5AF200C16BE6 /* HomeViewModel.swift */; };
+		08C57733224A601B002D789F /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C57732224A601B002D789F /* Post.swift */; };
+		08C5773A224A613A002D789F /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C57739224A613A002D789F /* Services.swift */; };
+		08C5773C224A6210002D789F /* DemoDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C5773B224A6210002D789F /* DemoDataService.swift */; };
+		08C5773F224A6302002D789F /* sample.json in Resources */ = {isa = PBXBuildFile; fileRef = 08C5773E224A6302002D789F /* sample.json */; };
+		08C57743224A664E002D789F /* DataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C57742224A664E002D789F /* DataParser.swift */; };
+		08D60B72224A81EE00CDFC32 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D60B71224A81EE00CDFC32 /* Enums.swift */; };
+		08D60B78224ACD6600CDFC32 /* glitch.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 08D60B77224ACD6500CDFC32 /* glitch.mp4 */; };
+		3FC98EAFB17FB7A9453FF9A6 /* Pods_FlipflopUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04728E1BDBE7D64AEADADBAF /* Pods_FlipflopUITests.framework */; };
+		5548141AFA8C20A858CE7CD8 /* Pods_Flipflop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35E573009E3B7511E52A4CA4 /* Pods_Flipflop.framework */; };
+		CFE947AD823E0751C80B2FB0 /* Pods_FlipflopTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94F9D778801029ECBAAC3A16 /* Pods_FlipflopTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +53,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04728E1BDBE7D64AEADADBAF /* Pods_FlipflopUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlipflopUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		08233E26224A4FBC00C16BE6 /* Flipflop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flipflop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08233E29224A4FBC00C16BE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		08233E2B224A4FBC00C16BE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		08233E2E224A4FBC00C16BE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08233E2B224A4FBC00C16BE6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		08233E30224A4FC200C16BE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		08233E33224A4FC200C16BE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08233E35224A4FC200C16BE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08233E3A224A4FC300C16BE6 /* FlipflopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlipflopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08233E3E224A4FC300C16BE6 /* FlipflopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipflopTests.swift; sourceTree = "<group>"; };
@@ -47,6 +65,32 @@
 		08233E45224A4FC300C16BE6 /* FlipflopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlipflopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08233E49224A4FC300C16BE6 /* FlipflopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipflopUITests.swift; sourceTree = "<group>"; };
 		08233E4B224A4FC300C16BE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08233E60224A504000C16BE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		08233E62224A504000C16BE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		08233E68224A51C100C16BE6 /* RecorderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecorderViewController.swift; sourceTree = "<group>"; };
+		08233E6A224A51F800C16BE6 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		08233E6C224A521900C16BE6 /* OPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OPViewController.swift; sourceTree = "<group>"; };
+		08233E6E224A522B00C16BE6 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		08233E70224A523D00C16BE6 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		08233E73224A552900C16BE6 /* VideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
+		08233E75224A553600C16BE6 /* VideoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoCell.xib; sourceTree = "<group>"; };
+		08233E78224A566B00C16BE6 /* VideoDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDescriptionView.swift; sourceTree = "<group>"; };
+		08233E7A224A5AF200C16BE6 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		08C57732224A601B002D789F /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		08C57739224A613A002D789F /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		08C5773B224A6210002D789F /* DemoDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoDataService.swift; sourceTree = "<group>"; };
+		08C5773E224A6302002D789F /* sample.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = sample.json; sourceTree = "<group>"; };
+		08C57742224A664E002D789F /* DataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataParser.swift; sourceTree = "<group>"; };
+		08D60B71224A81EE00CDFC32 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		08D60B77224ACD6500CDFC32 /* glitch.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = glitch.mp4; sourceTree = "<group>"; };
+		214CE06F32650DB22A56E973 /* Pods-FlipflopTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlipflopTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlipflopTests/Pods-FlipflopTests.release.xcconfig"; sourceTree = "<group>"; };
+		35E573009E3B7511E52A4CA4 /* Pods_Flipflop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flipflop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C060695A66EE1332DD56656 /* Pods-Flipflop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flipflop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Flipflop/Pods-Flipflop.debug.xcconfig"; sourceTree = "<group>"; };
+		48D9009C704D3A5DFA2F43DF /* Pods-FlipflopTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlipflopTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlipflopTests/Pods-FlipflopTests.debug.xcconfig"; sourceTree = "<group>"; };
+		89544804F2BCFBDF10AEF216 /* Pods-FlipflopUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlipflopUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlipflopUITests/Pods-FlipflopUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8B43BA7CC8E859FE0A12F7C6 /* Pods-Flipflop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flipflop.release.xcconfig"; path = "Pods/Target Support Files/Pods-Flipflop/Pods-Flipflop.release.xcconfig"; sourceTree = "<group>"; };
+		94F9D778801029ECBAAC3A16 /* Pods_FlipflopTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlipflopTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C64376A805BC03D634DAC932 /* Pods-FlipflopUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlipflopUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlipflopUITests/Pods-FlipflopUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5548141AFA8C20A858CE7CD8 /* Pods_Flipflop.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFE947AD823E0751C80B2FB0 /* Pods_FlipflopTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FC98EAFB17FB7A9453FF9A6 /* Pods_FlipflopUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +128,8 @@
 				08233E3D224A4FC300C16BE6 /* FlipflopTests */,
 				08233E48224A4FC300C16BE6 /* FlipflopUITests */,
 				08233E27224A4FBC00C16BE6 /* Products */,
+				F2FA9C57DA8484AB5E57B13F /* Pods */,
+				0FA4B440D493AD11CAC46C18 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +146,13 @@
 		08233E28224A4FBC00C16BE6 /* Flipflop */ = {
 			isa = PBXGroup;
 			children = (
-				08233E29224A4FBC00C16BE6 /* AppDelegate.swift */,
-				08233E2B224A4FBC00C16BE6 /* ViewController.swift */,
-				08233E2D224A4FBC00C16BE6 /* Main.storyboard */,
-				08233E30224A4FC200C16BE6 /* Assets.xcassets */,
-				08233E32224A4FC200C16BE6 /* LaunchScreen.storyboard */,
-				08233E35224A4FC200C16BE6 /* Info.plist */,
+				08D60B70224A819200CDFC32 /* Common */,
+				08C5773D224A62D5002D789F /* Resources */,
+				08C57738224A6118002D789F /* Services */,
+				08233E67224A507300C16BE6 /* Model */,
+				08233E66224A506200C16BE6 /* Supporting Files */,
+				08233E65224A505700C16BE6 /* ViewModel */,
+				08233E57224A4FDA00C16BE6 /* View */,
 			);
 			path = Flipflop;
 			sourceTree = "<group>";
@@ -125,6 +175,124 @@
 			path = FlipflopUITests;
 			sourceTree = "<group>";
 		};
+		08233E57224A4FDA00C16BE6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				08233E77224A563000C16BE6 /* VideoDescriptionView */,
+				08233E72224A550100C16BE6 /* VideoCell */,
+				08233E5E224A504000C16BE6 /* Base.lproj */,
+				08233E2B224A4FBC00C16BE6 /* HomeViewController.swift */,
+				08233E68224A51C100C16BE6 /* RecorderViewController.swift */,
+				08233E6A224A51F800C16BE6 /* ProfileViewController.swift */,
+				08233E6C224A521900C16BE6 /* OPViewController.swift */,
+				08233E6E224A522B00C16BE6 /* SearchViewController.swift */,
+				08233E70224A523D00C16BE6 /* NotificationViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		08233E5E224A504000C16BE6 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				08233E5F224A504000C16BE6 /* LaunchScreen.storyboard */,
+				08233E61224A504000C16BE6 /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		08233E65224A505700C16BE6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				08233E7A224A5AF200C16BE6 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		08233E66224A506200C16BE6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08233E29224A4FBC00C16BE6 /* AppDelegate.swift */,
+				08233E30224A4FC200C16BE6 /* Assets.xcassets */,
+				08233E35224A4FC200C16BE6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		08233E67224A507300C16BE6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				08C57732224A601B002D789F /* Post.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		08233E72224A550100C16BE6 /* VideoCell */ = {
+			isa = PBXGroup;
+			children = (
+				08233E73224A552900C16BE6 /* VideoCell.swift */,
+				08233E75224A553600C16BE6 /* VideoCell.xib */,
+			);
+			path = VideoCell;
+			sourceTree = "<group>";
+		};
+		08233E77224A563000C16BE6 /* VideoDescriptionView */ = {
+			isa = PBXGroup;
+			children = (
+				08233E78224A566B00C16BE6 /* VideoDescriptionView.swift */,
+			);
+			path = VideoDescriptionView;
+			sourceTree = "<group>";
+		};
+		08C57738224A6118002D789F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				08C57739224A613A002D789F /* Services.swift */,
+				08C5773B224A6210002D789F /* DemoDataService.swift */,
+				08C57742224A664E002D789F /* DataParser.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		08C5773D224A62D5002D789F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				08D60B77224ACD6500CDFC32 /* glitch.mp4 */,
+				08C5773E224A6302002D789F /* sample.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		08D60B70224A819200CDFC32 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				08D60B71224A81EE00CDFC32 /* Enums.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		0FA4B440D493AD11CAC46C18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35E573009E3B7511E52A4CA4 /* Pods_Flipflop.framework */,
+				94F9D778801029ECBAAC3A16 /* Pods_FlipflopTests.framework */,
+				04728E1BDBE7D64AEADADBAF /* Pods_FlipflopUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2FA9C57DA8484AB5E57B13F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C060695A66EE1332DD56656 /* Pods-Flipflop.debug.xcconfig */,
+				8B43BA7CC8E859FE0A12F7C6 /* Pods-Flipflop.release.xcconfig */,
+				48D9009C704D3A5DFA2F43DF /* Pods-FlipflopTests.debug.xcconfig */,
+				214CE06F32650DB22A56E973 /* Pods-FlipflopTests.release.xcconfig */,
+				89544804F2BCFBDF10AEF216 /* Pods-FlipflopUITests.debug.xcconfig */,
+				C64376A805BC03D634DAC932 /* Pods-FlipflopUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +300,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 08233E4E224A4FC300C16BE6 /* Build configuration list for PBXNativeTarget "Flipflop" */;
 			buildPhases = (
+				A446C37A983DDBE073EEF007 /* [CP] Check Pods Manifest.lock */,
 				08233E22224A4FBC00C16BE6 /* Sources */,
 				08233E23224A4FBC00C16BE6 /* Frameworks */,
 				08233E24224A4FBC00C16BE6 /* Resources */,
+				A619ABC58C4C6D369FF3F6E3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +319,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 08233E51224A4FC300C16BE6 /* Build configuration list for PBXNativeTarget "FlipflopTests" */;
 			buildPhases = (
+				D917399507702A307AD2D322 /* [CP] Check Pods Manifest.lock */,
 				08233E36224A4FC300C16BE6 /* Sources */,
 				08233E37224A4FC300C16BE6 /* Frameworks */,
 				08233E38224A4FC300C16BE6 /* Resources */,
@@ -167,6 +338,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 08233E54224A4FC300C16BE6 /* Build configuration list for PBXNativeTarget "FlipflopUITests" */;
 			buildPhases = (
+				655D369A340F15C783CD0C06 /* [CP] Check Pods Manifest.lock */,
 				08233E41224A4FC300C16BE6 /* Sources */,
 				08233E42224A4FC300C16BE6 /* Frameworks */,
 				08233E43224A4FC300C16BE6 /* Resources */,
@@ -229,9 +401,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08233E34224A4FC200C16BE6 /* LaunchScreen.storyboard in Resources */,
+				08C5773F224A6302002D789F /* sample.json in Resources */,
+				08233E64224A504000C16BE6 /* Main.storyboard in Resources */,
+				08233E76224A553600C16BE6 /* VideoCell.xib in Resources */,
 				08233E31224A4FC200C16BE6 /* Assets.xcassets in Resources */,
-				08233E2F224A4FBC00C16BE6 /* Main.storyboard in Resources */,
+				08D60B78224ACD6600CDFC32 /* glitch.mp4 in Resources */,
+				08233E63224A504000C16BE6 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,12 +426,116 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		655D369A340F15C783CD0C06 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlipflopUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A446C37A983DDBE073EEF007 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Flipflop-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A619ABC58C4C6D369FF3F6E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Flipflop/Pods-Flipflop-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ASPVideoPlayer/ASPVideoPlayer.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ASPVideoPlayer.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flipflop/Pods-Flipflop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D917399507702A307AD2D322 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlipflopTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		08233E22224A4FBC00C16BE6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08233E2C224A4FBC00C16BE6 /* ViewController.swift in Sources */,
+				08233E6F224A522B00C16BE6 /* SearchViewController.swift in Sources */,
+				08C57733224A601B002D789F /* Post.swift in Sources */,
+				08233E74224A552900C16BE6 /* VideoCell.swift in Sources */,
+				08C5773A224A613A002D789F /* Services.swift in Sources */,
+				08233E2C224A4FBC00C16BE6 /* HomeViewController.swift in Sources */,
+				08C5773C224A6210002D789F /* DemoDataService.swift in Sources */,
+				08C57743224A664E002D789F /* DataParser.swift in Sources */,
+				08233E7B224A5AF200C16BE6 /* HomeViewModel.swift in Sources */,
+				08233E79224A566B00C16BE6 /* VideoDescriptionView.swift in Sources */,
+				08233E6D224A521900C16BE6 /* OPViewController.swift in Sources */,
+				08233E71224A523D00C16BE6 /* NotificationViewController.swift in Sources */,
+				08233E69224A51C100C16BE6 /* RecorderViewController.swift in Sources */,
+				08233E6B224A51F800C16BE6 /* ProfileViewController.swift in Sources */,
+				08D60B72224A81EE00CDFC32 /* Enums.swift in Sources */,
 				08233E2A224A4FBC00C16BE6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,20 +572,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		08233E2D224A4FBC00C16BE6 /* Main.storyboard */ = {
+		08233E5F224A504000C16BE6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				08233E2E224A4FBC00C16BE6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		08233E32224A4FC200C16BE6 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				08233E33224A4FC200C16BE6 /* Base */,
+				08233E60224A504000C16BE6 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		08233E61224A504000C16BE6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08233E62224A504000C16BE6 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -363,7 +642,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -418,7 +697,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -430,6 +709,7 @@
 		};
 		08233E4F224A4FC300C16BE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C060695A66EE1332DD56656 /* Pods-Flipflop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +728,7 @@
 		};
 		08233E50224A4FC300C16BE6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B43BA7CC8E859FE0A12F7C6 /* Pods-Flipflop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +747,7 @@
 		};
 		08233E52224A4FC300C16BE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48D9009C704D3A5DFA2F43DF /* Pods-FlipflopTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +769,7 @@
 		};
 		08233E53224A4FC300C16BE6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 214CE06F32650DB22A56E973 /* Pods-FlipflopTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +791,7 @@
 		};
 		08233E55224A4FC300C16BE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89544804F2BCFBDF10AEF216 /* Pods-FlipflopUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +812,7 @@
 		};
 		08233E56224A4FC300C16BE6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C64376A805BC03D634DAC932 /* Pods-FlipflopUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
