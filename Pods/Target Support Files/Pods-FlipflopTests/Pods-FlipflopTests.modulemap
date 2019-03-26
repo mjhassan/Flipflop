@@ -1,0 +1,6 @@
+framework module Pods_FlipflopTests {
+  umbrella header "Pods-FlipflopTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
